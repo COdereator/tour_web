@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap");
+.hero {
+  height: auto;
+  width: 100%;
+  /* background-color: red; */
+}
+.main {
+  width: 80%;
+  position: relative;
+  margin: 40px auto;
+  display: flex;
+  /* border: 1px solid black; */
+  height: 60vh;
+}
+.left {
+  width: 50%;
+}
+.left-content {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.left h1 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 55px;
+  margin: 25px 0px;
+}
+.left p {
+  font-size: 0.8.2rem;
+  color: grey;
+}
+.mainright {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainright .right-content {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.mainright img,
+video {
+  height: 70%;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  border: 1px solid #fe9f40;
+}
+.section {
+  width: 80%;
+  height: auto;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  margin: 80px auto;
+}
+.section1 h5 {
+  color: #ee3e3e;
+  font-family: "Lucida Calligraphy";
+  font-weight: 100;
+  font-size: 1.2rem;
+  margin: 10px 0px;
+}
+.section1 h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.grid-contianer {
+  margin-top: 50px;
+  max-width: 100%;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+.ratings {
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  text-align: center;
+  gap: 60px;
+}
+.ratings button {
+  background-color: #f87a20;
+  color: white;
+  padding: 15px;
+  border: none;
+  width: 53px;
+  text-align: center;
+  border-radius: 10px 5px;
+  font-weight: bold;
+}
+.section_left {
+  width: 50%;
+}
+.section_left h2 {
+  line-height: 50px;
+  margin: 20px 0px;
+  font-size: 2.6rem;
+  font-weight: 500;
+  width: 90%;
+}
+.section_left p {
+  margin-bottom: 20px;
+}
+.ratings h4 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 10px;
+  color: grey;
+}
+.section_right {
+  width: 50%;
+}
+.mansoryImg {
+  transition: 0.5s;
+}
+.mansoryImg:hover {
+  scale: 1.04;
+}
+.testcard_01 {
+  padding: 10px 15px;
+  height: 300px;
+  box-sizing: border-box;
+}
+.card-content {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.testcard_01 img {
+  border-radius: 10px;
+}

@@ -1,0 +1,64 @@
+.details_left {
+  width: 60%;
+  /* border: 1px solid red; */
+}
+.details_right{
+  width: 40%;
+}
+.details_desc {
+  width: 93.7%;
+  font-size: 0.9rem;
+  margin: 20px 0px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 1px grey;
+}
+.details_cont {
+  color: grey;
+  display: flex;
+  gap: 20px;
+  font-size: 0.9rem;
+  margin: 10px 0px 20px 0px;
+}
+.details_desc h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.details_desc > p {
+  margin-top: 20px;
+}
+.details_desc i {
+  color: black;
+}
+.details_desc span{
+  cursor: pointer;
+}
+.input {
+  border: 1px solid black;
+  margin-top: 20px;
+  border-radius: 50px;
+  outline: none;
+  margin-bottom: 10px;
+  /* height: 60px; */
+}
+.input button {
+  border-radius: 50px;
+}
+.review_item {
+  align-items: center;
+  display: flex;
+  position: relative;
+  height: 80px;
+  margin: 20px 0px;
+}
+.review_content h5 {
+  font-weight: 600;
+}
+.rating {
+  position: absolute;
+  right: 20px;
+}
+.review_content p{
+  color: grey;
+  margin: 3px 0px;
+}

@@ -1,0 +1,47 @@
+.section {
+  width: 80%;
+  height: auto;
+  display: flex;
+  margin: 80px auto;
+}
+.grid-container{
+  margin-top: 50px;
+  max-width: 100%;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+.grid-container img{
+  height: 100%;
+}
+.grid-contianer > div {
+  box-shadow: 1px 1px 5px 0px;
+}
+.card_img button{
+  bottom: 0px;
+}
+.pagination{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.pagination span{
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f87a20;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+.active_page{
+  background-color: #f87a20;
+  color: white !important;
+}

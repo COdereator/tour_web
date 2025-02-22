@@ -1,0 +1,20 @@
+.section2{
+    border-right: 1px solid #FE9F40;
+    border-bottom: 1px solid #FE9F40;
+    border-radius: .5rem;
+    padding: 1em;
+    height: 160px;
+    margin-left: 35px;
+}
+.section2 img{
+    padding: 10px;
+    background-color: #FE9F40;
+    border-radius: 30px;
+}
+.section2 h4{
+    margin: 5px 0px;
+}
+.section2 p{
+    color: grey;
+    font-size: .8rem;
+}

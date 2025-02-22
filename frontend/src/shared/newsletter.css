@@ -1,0 +1,44 @@
+.news {
+  height: 400px;
+  background-color: #b8d3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftnews {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.rightnews {
+  width: 40%;
+}
+
+.leftnews h2 {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+.newsearch {
+  width: 90%;
+  background-color: white;
+  height: 55px;
+  display: flex;
+  padding: 0px .8em;
+  align-items: center;
+  justify-content: space-between;
+}
+.newsearch input {
+  border: none;
+  outline: none;
+  width: 50%;
+  padding: 4px 0px;
+}
+.newsearch button {
+  padding: 8px 18px;
+  background-color: #fe9f40;
+  border: none;
+  color: white;
+  
+  border-radius: 8px;
+}
