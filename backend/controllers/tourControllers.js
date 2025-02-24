@@ -115,8 +115,34 @@ export const getTourBySearch = async (req, res) => {
       data: tours,
     });
   } catch (error) {
-    res
-      .status(500)
-      .json({ success: false, message: "Getting data getTourBySearch. Try again" });
+    res.status(500).json({
+      success: false,
+      message: "getTourBySearch data not found. Try again",
+    });
+  }
+};
+
+export const getFeaturedtours = async () => {
+  const tours = await Tour.find({ featured: true }).limit(8);
+  try {
+    res.status(200).json({
+      success: true,
+      message: "Successful",
+      data: tours,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "data not found. Try again",
+    });
+  }
+};
+
+export const getTourCount = async () => {
+  try {
+    const tourCount = await Tour.estimatedDocumentCount();
+    res.status(200).json({ success: true, data: tourCount });
+  } catch (error) {
+    res.status(400).json({ success: false, message: "data not found" });
   }
 };
