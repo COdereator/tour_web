@@ -122,7 +122,7 @@ export const getTourBySearch = async (req, res) => {
   }
 };
 
-export const getFeaturedtours = async () => {
+export const getFeaturedtours = async (req, res) => {
   const tours = await Tour.find({ featured: true }).limit(8);
   try {
     res.status(200).json({
@@ -138,7 +138,7 @@ export const getFeaturedtours = async () => {
   }
 };
 
-export const getTourCount = async () => {
+export const getTourCount = async (req, res) => {
   try {
     const tourCount = await Tour.estimatedDocumentCount();
     res.status(200).json({ success: true, data: tourCount });
